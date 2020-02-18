@@ -33,17 +33,19 @@ An implementation of basic online analytical processing queries using Python. Th
  Note: When entering commands using the command line, header fields with spaces must be wrapped in quotes.
  
  **Example 1**
+ 
  $ python OLAP.py --input StudentsPerformance.csv --groupby lunch --mean 'math score' --mean 'reading score' --mean 'writing score'
 
-**Result**
+
 lunch,mean_math score,mean_reading score,mean_writing score
 free/reduced,58.92112676056338,64.65352112676057,63.02253521126761
 standard,70.03410852713178,71.65426356589147,70.8232558139535
 
 **Example 2**
+
 $ python OLAP.py --input StudentsPerformance.csv --count --groupby 'parental level of education' --mean 'math score' --mean 'reading score' --mean 'writing score'
 
-**Result**
+
 parental level of education,count,mean_math score,mean_reading score,mean_writing score
 associate's degree,222,67.88288288288288,70.92792792792793,69.8963963963964
 bachelor's degree,118,69.38983050847457,73.0,73.38135593220339
@@ -53,9 +55,10 @@ some college,226,67.1283185840708,69.46017699115045,68.84070796460178
 some high school,179,63.497206703910614,66.93854748603351,64.88826815642459
 
 **Example 3**
+
 $ python OLAP.py --input StudentsPerformance.csv --top 3 'parental level of education'
 top_parental level of education
 
-**Result**
+
 "some college: 226,associate's degree: 222,high school: 196"
 
