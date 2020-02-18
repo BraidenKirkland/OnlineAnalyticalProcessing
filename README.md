@@ -3,7 +3,7 @@ An implementation of basic online analytical processing queries using Python. Th
 # Getting Started
 1. Clone the repository using **git clone https://github.com/YOURUSERNAME/OnlineAnalyticalProcessing.git**
 2. Run the program from the command line using the following format 
-  **python OLAP.py --input <file-name> [aggregate arguments] [--groupby fieldname]**
+  **python OLAP.py --input <file-name> [aggregate arguments] [--groupby fieldname]**<br/>
     The **-h** flag can be used to view a description of the available command line arguments.
 3. Since the data returned is sent to standard output in .csv format, the user can use stream redirection to create a new .csv file that 
  contains the results of the query. e.g. **python OLAP.py --input file-name --count > output-file-name.csv**
