@@ -29,7 +29,7 @@ An implementation of basic online analytical processing queries using Python. Th
  |--top k name-of-categorical-field|calculates the top k most common occuring categorical fields in the file (each row contributes 1)|a string listing the names of the top fields and their counts e.g. "Led Zeppelin: 327, ACDC: 245, Lynyrd Skynyrd: 197"|
  
  # Examples
- Using the StudentPerformance.csv file provided in the repository.
+ Using the StudentsPerformance.csv file provided in the repository.
  Note: When entering commands using the command line, header fields with spaces must be wrapped in quotes.
  
  **Example 1**
