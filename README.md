@@ -3,7 +3,7 @@ An implementation of basic online analytical processing queries using Python. Th
 # Getting Started
 1. Clone the repository using **git clone https://github.com/YOURUSERNAME/OnlineAnalyticalProcessing.git**
 2. Run the program from the command line using the following format 
-  **python OLAP.py --input <file-name> [aggregate arguments] [--groupby <fieldname>]**
+  **python OLAP.py --input <file-name> [aggregate arguments] [--groupby fieldname]**
 
 # Argument Descriptions
 
