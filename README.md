@@ -57,8 +57,8 @@ some high school,179,63.497206703910614,66.93854748603351,64.88826815642459
 **Example 3**
 
 $ python OLAP.py --input StudentsPerformance.csv --top 3 'parental level of education'
-top_parental level of education
 
+top_parental level of education
 
 "some college: 226,associate's degree: 222,high school: 196"
 
