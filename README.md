@@ -46,7 +46,7 @@ standard,70.03410852713178,71.65426356589147,70.8232558139535
 $ python OLAP.py --input StudentsPerformance.csv --count --groupby 'parental level of education' --mean 'math score' --mean 'reading score' --mean 'writing score'
 
 
-parental level of education,count,mean_math score,mean_reading score,mean_writing score
+parental level of education,count,mean_math score,mean_reading score,mean_writing score<br/>
 associate's degree,222,67.88288288288288,70.92792792792793,69.8963963963964
 bachelor's degree,118,69.38983050847457,73.0,73.38135593220339
 high school,196,62.13775510204081,64.70408163265306,62.44897959183673
